@@ -1,0 +1,11 @@
+{
+    "name": "PHP mode",
+    "uri": "gh:zedapp/php-mode",
+    "version": "0.1",
+    "description": "PHP mode for Zed",
+    "files": [
+        "check.js",
+        "ctags.js",
+        "php.js"
+    ]
+}
