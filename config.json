@@ -5224,8 +5224,8 @@
                         "zlib_get_coding_type"
                     ]
                 },
-                "Tools:CTags": {
-                    scriptUrl: "./ctags.js",
+                "Tools:Index": {
+                    scriptUrl: "./index.js",
                     inputs: {
                         text: true
                     }
@@ -5239,7 +5239,7 @@
             },
             handlers: {
                 index: [
-                    "Tools:CTags"
+                    "Tools:Index"
                 ],
                 complete: [
                     "Tools:Complete:Builtin"
