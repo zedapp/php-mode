@@ -5,7 +5,7 @@
     "description": "PHP mode for Zed",
     "files": [
         "check.js",
-        "ctags.js",
+        "index.js",
         "php.js"
     ]
 }
