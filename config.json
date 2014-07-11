@@ -7,6 +7,7 @@
                 "php",
                 "php4"
             ],
+            completionTriggers: ["->", "\\", "::"],
             commands: {
                 "Tools:Complete:Builtin": {
                     scriptUrl: "/default/command/builtin_completer.js",
