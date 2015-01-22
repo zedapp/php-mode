@@ -5223,19 +5223,22 @@
                         "zlib_decode",
                         "zlib_encode",
                         "zlib_get_coding_type"
-                    ]
+                    ],
+                    sandbox: "complete"
                 },
                 "Tools:Index": {
                     scriptUrl: "./index.js",
                     inputs: {
                         text: true
-                    }
+                    },
+                    sandbox: "index"
                 },
                 "Tools:Check": {
                     scriptUrl: "./check.js",
                     inputs: {
                         text: true
-                    }
+                    },
+                    sandbox: "check"
                 }
             },
             handlers: {
